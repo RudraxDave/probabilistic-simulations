@@ -63,6 +63,21 @@ pip install matplotlib
 - Analyzes the number of draws required and plots the distribution of the number of draws needed to achieve the sum threshold.
 - The expected number of draws is around 8-9, which aligns with theoretical expectations.
 
+### **Additional Experiments**
+
+1. **Simulating the Law of Large Numbers**
+   - Demonstrates the Law of Large Numbers by simulating coin flips and observing how the sample mean converges to the expected value as the number of trials increases.
+
+2. **Estimating Pi Using a Monte Carlo Method**
+   - Estimates the value of π by simulating random points within a square and calculating the ratio of points that fall inside a quarter circle.
+
+3. **Random Walk Simulation**
+   - Simulates a 1D random walk and visualizes the position over time, demonstrating the concept of stochastic processes.
+
+4. **Buffon's Needle Problem**
+   - Estimates the value of π by simulating the dropping of a needle on a floor with parallel lines and counting the number of line crossings.
+
+
 ## **Results and Analysis**
 
 The results of each experiment are visualized using histograms. These visualizations can be found in the `results/` directory, with the following interpretations:
