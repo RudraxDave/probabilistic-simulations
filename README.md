@@ -3,18 +3,6 @@
 
 Welcome to the **Probabilistic Simulations and Monte Carlo Experiments** repository! This repository showcases various experiments that involve simulating probabilistic events and analyzing the results using Python. The simulations focus on biased coin flips and summation of uniform random variables, demonstrating key concepts in probability theory and stochastic processes.
 
-### Monte Carlo Simulation Flow
-```mermaid
-graph TD;
-    A[Start] --> B[Generate Random Points];
-    B --> C{Inside Circle?};
-    C -->|Yes| D[Increase Counter];
-    C -->|No| E[Proceed to Next Point];
-    D --> E;
-    E --> F[Estimate Pi];
-    F --> G[End];
-
-
 ## **Repository Overview**
 
 This repository contains Python scripts that implement the following experiments:
